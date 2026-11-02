@@ -1,0 +1,11 @@
+ 1009  gh auth login
+ 1010  gh repo create SOC_resources --public --source=. --remote=origin --push
+ 1011  git status
+ 1012  git add .
+ 1013  git commit -m "SOC_resources books_folder and other pdfs Initial base commit"
+ 1014  git branch -M main
+ 1015  git branch
+ 1016  gh repo create SOC_resources --public
+ 1017  git remote add origin https://github.com/OmkarVijayBagade/SOC_resources
+ 1018  git push -u origin main
+ 1019  gh repo view --web
